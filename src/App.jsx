@@ -6,14 +6,13 @@ import './Components/Login.css'
 import Pwd from './Components/Pwd'
 import './Components/Pwd.css'
 import Home from './Components/Home'
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import {Routes, Route} from 'react-router-dom'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <Router basename="/my-website">
       <Routes>
         <Route path="" element={<Signup/>}/>
         <Route path="/login" element={<Login/>}/>
@@ -21,7 +20,6 @@ function App() {
         <Route path="/pwd" element={<Pwd/>} />
         <Route path="/signup" element={<Signup/>} />
       </Routes>
-    </Router>
     </>
   )
 }
