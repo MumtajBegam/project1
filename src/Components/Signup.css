@@ -1,10 +1,8 @@
- @import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-/* *{
+*{
     border: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Amiri", serif;
-} */
+}
 .outline{
   display: flex;
   flex-direction: column;
@@ -12,7 +10,7 @@
   padding: 30px;
   background: #f0f2f5;
   font-family: Arial, sans-serif;
-  height:100vh
+  min-height:100vh
 }
 .fb-logo {
   font-size: 50px;
@@ -24,7 +22,8 @@
   background: white;
   padding: 20px;
   border-radius: 10px;
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
 }
 .signup-box h2 {
   margin:0;
@@ -60,19 +59,20 @@
   flex: 1;
   display: flex;
   justify-content: space-between;
-  width: 390px;
+  width: 360px;
 }
 .label{
-  font-size: 15px;
-  opacity: 0.6;
+  font-size: 14px;
+  color: #606770;
 }
 .icon{
   width: 13px;
   height: 13px;
   cursor: pointer;
 }
-.radio, select {
-  padding: 8px 10px;
+.radio, 
+select {
+  padding: 010px;
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 14px;
