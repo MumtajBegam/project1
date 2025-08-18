@@ -1,0 +1,38 @@
+.wrap{
+    display: flex;
+    flex-direction: colummn;
+    align-items: center;
+    margin: 50px;
+    height: 100vh;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 20px;
+    width: 400px;
+    background-color: rgb(234, 239, 239);
+    padding: 30px;
+}
+.textfield {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.textfield .MuiInputBase-root {
+  background-color: white
+}
+.fb{
+    margin-bottom: 10px;
+}
+.input1 {
+    border-radius: 10px;
+    border:1px solid black;
+    margin: 10px 0;
+    align-items: left;
+}
+.btn1{
+    margin: 10px;
+    width: 100%;
+}

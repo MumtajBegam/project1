@@ -1,0 +1,96 @@
+ @import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/* *{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Amiri", serif;
+} */
+.outline{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  background: #f0f2f5;
+  font-family: Arial, sans-serif;
+  height:100vh
+}
+.fb-logo {
+  font-size: 50px;
+  color:rgb(24, 119, 242);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.signup-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+}
+.signup-box h2 {
+  margin:0;
+  text-align: center;
+  font-weight: bold;
+}
+.subtitle {
+  font-size: 14px;
+  margin: 10px;
+  color: #606770;
+  text-align: center;
+}
+.line {
+  height: 1px;
+  background: #ccd0d5;
+  margin: 10px 0 15px;
+}
+.name {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+.radio-group {
+  display: flex;
+  gap: 10px;
+  margin: 0 10px;
+}
+.radio-box {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-right: 10px;
+  margin: 5px;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  width: 390px;
+}
+.label{
+  font-size: 15px;
+  opacity: 0.6;
+}
+.icon{
+  width: 13px;
+  height: 13px;
+  cursor: pointer;
+}
+.radio, select {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+}
+.info{
+  font-size: 11px;
+  color: #606770;
+  margin: 10px 0;
+}
+.signup-btn {
+  background: #00a400 !important;
+  width: 100%;
+  font-weight: bold;
+}
+.login-btn {
+  text-transform: none !important;
+  width: 100%;
+}
