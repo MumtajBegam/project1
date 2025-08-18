@@ -1,6 +1,6 @@
 .wrap{
     display: flex;
-    flex-direction: colummn;
+    flex-direction: column;
     align-items: center;
     margin: 50px;
     height: 100vh;

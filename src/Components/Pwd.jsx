@@ -16,7 +16,9 @@ const Pwd=()=>{
         <div className="wrap">
         <div className="outline1">
             <h2>Find Your Account</h2>
+            <div className="file">
             <p>Enter your mobile number or email address.</p>
+            </div>
             <div className="textfield">
             <TextField label="Email address or mobile number" name="number_or_email" type="text" variant="outlined"  size="small" fullWidth  onChange={(e)=>handleChange(e)}/>
             </div>
