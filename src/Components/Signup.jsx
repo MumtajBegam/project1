@@ -43,7 +43,7 @@ const Signup=()=>{
 
 return(
     <div className="outline">
-        <div className="fb-logo">facebook</div>
+        <div className="fb-logo">Click & Cart</div>
         <div className='signup-box'>
             <h2>Create a New Account!</h2>
             <p className='subtitle'>It's quick and easy.</p>
