@@ -10,9 +10,10 @@
   padding: 30px;
   background: #f0f2f5;
   font-family: Arial, sans-serif;
-  min-height:100vh
+  min-height:100vh;
+  min-width: 100vh;
 }
-.fb-logo {
+.logo {
   font-size: 50px;
   color:rgb(24, 119, 242);
   font-weight: bold;
@@ -48,8 +49,10 @@
 }
 .radio-group {
   display: flex;
+  justify-content: center;
   gap: 10px;
-  margin: 0 10px;
+  width: 100%;
+  margin : 0 12px
 }
 .radio-box {
   border: 1px solid #ccc;
@@ -58,8 +61,9 @@
   margin: 5px;
   flex: 1;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  width: 360px;
+  width: 100%;
 }
 .label{
   font-size: 14px;
@@ -72,7 +76,7 @@
 }
 .radio, 
 select {
-  padding: 010px;
+  padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 14px;

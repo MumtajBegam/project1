@@ -43,7 +43,7 @@ const Signup=()=>{
 
 return(
     <div className="outline">
-        <div className="fb-logo">Click & Cart</div>
+        <div className="logo">Click & Cart</div>
         <div className='signup-box'>
             <h2>Create a New Account!</h2>
             <p className='subtitle'>It's quick and easy.</p>
@@ -58,7 +58,7 @@ return(
                 <select name="dob_month" onChange={(e)=>handleChange(e)}>{months.map((m, i) => <option key={i}>{m}</option>)}</select>
                 <select name="dob_year" onChange={(e)=>handleChange(e)}>{years.map(y => <option key={y}>{y}</option>)}</select>
             </div>
-            <FormControl>
+            <FormControl fullWidth>
                 <FormLabel>Gender <CircleQuestionMark className="icon"/></FormLabel>
                     <RadioGroup className="radio-group" row name="gender">
                     <FormControlLabel value="female" label="Female" control={<Radio />} className="radio-box"/>
